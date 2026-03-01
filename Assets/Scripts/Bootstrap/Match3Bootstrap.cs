@@ -11,7 +11,6 @@ namespace Bootstrap
         [SerializeField] private int _width = 8;
         [SerializeField] private int _height = 8;
         [SerializeField] private BoardRenderer _boardRenderer;
-
         [SerializeField] private BlockType[] _spawnableTypes =
         {
             BlockType.Red,
